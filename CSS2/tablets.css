@@ -1,0 +1,148 @@
+@media screen and (orientation:portrait) and (min-width: 600px) and (max-width: 800px) and (min-height: 950px) and (max-height:1400px) {
+		@media screen and (min-height: 400px){
+			.site-header{
+			 height: 7%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:7%;
+			  height: 85%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:92%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 7%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 93%;
+			 font-size:200%; 
+			 height: 4%;
+		 	 }
+			.btn-Send{
+				height: 5%;
+			 }
+}
+} 
+@media screen and (orientation:portrait) and (min-width: 600px) and (max-width: 800px) and (min-height: 800px) and (max-height:1400px) {
+		@media screen and (min-height: 400px){
+			.site-header{
+			 height: 7%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:7%;
+			  height: 85%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:92%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 7%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 93%;
+			 font-size:200%; 
+			 height: 4%;
+		 	 }
+			.btn-Send{
+				height: 5%;
+			 }
+}
+} 
+@media screen and (orientation:landscape) and (min-height: 590px) and (max-height: 800px) and (min-width: 950px) and (max-width:1400px) {
+			.site-header{
+			 height: 7%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:7%;
+			  height: 85%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:92%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 7%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 93%;
+			 font-size:140%; 
+			 height: 4%;
+		 	 }
+			.btn-Send{
+				height: 5%;
+			 }
+}
+@media screen and (orientation:landscape) and (min-height: 400px) and (max-height: 600px) and (min-width: 950px) and (max-width:1400px) {
+			.site-header{
+			 height: 12%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:12%;
+			  height: 74%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:86%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 14%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 88%;
+			 font-size:150%; 
+			 height: 8%;
+		 	 }
+			.btn-Send{
+				height: 9%;
+			 }
+}  
+@media screen and (orientation:landscape) and (min-height: 449px) and (max-height: 591px) and (min-width: 749px) and (max-width:951px) {
+			.site-header{
+			 height: 7%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:7%;
+			  height: 85%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:92%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 7%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 93%;
+			 font-size:140%; 
+			 height: 4%;
+		 	 }
+			.btn-Send{
+				height: 5%;
+			 }
+} 
+@media screen and (orientation:landscape) and (min-height: 210px) and (max-height: 400px) and (min-width: 950px) and (max-width:1400px) {
+			.site-header{
+			 height: 15%;		
+		 	 }
+		 	 .site-content,.site-messages{
+			  top:15%;
+			  height: 70%;
+		 	 } 
+		 	 .site-footer{
+		 	 top:85%;
+		 	 bottom: 0%;
+		 	 }
+			.btn-Clr,.btn-Img{
+			 height: 15%;
+		 	 }
+		 	 .btn-Send,input.textBox{
+			 top: 87%;
+			 font-size:140%; 
+			 height: 10%;
+		 	 }
+			.btn-Send{
+				height: 12%;
+			 }
+} 

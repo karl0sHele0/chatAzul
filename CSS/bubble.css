@@ -1,0 +1,58 @@
+ .banner{
+ color: #E4F1FE;
+ position: fixed;
+ font-size: 1.4em;
+ font-family:sans-serif;
+ font-weight:bold; 
+ left: 33%;
+}
+h3{
+ color: #fff;
+ word-wrap: break-word; 
+ padding-left:5px;
+}
+.hour{
+  position: absolute;
+  color: #fff;
+  top: 0%;
+  right: 4%;
+}
+.bubble {
+  position: fixed;
+  bottom: 6%;
+  padding: 1%;
+  margin-bottom: 60px;
+  background: #e67e22;
+  color: #fff;
+  left: 35%;
+  width: 60%;
+  display: none;
+}
+.bubble-four {
+  position: relative;
+  padding: .5%;
+  background: #22A7F0;
+  color: #fff;
+  left: 35%;
+  width: 60%;
+  margin-top:5%;
+  bottom: 2%;
+
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.bubble-red {
+  position:relative;
+  padding: .5%;
+  background: #EE3233;
+  color: #fff;
+  left: 3%;
+  width: 60%;
+  margin-top:5%;
+  bottom: 2%;
+
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+  border-radius: 20px;
+}

@@ -1,31 +1,88 @@
 
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Primer Repositorio para GIT</title>
-</head>
-<body>
-	INICIO!...
-	<table border="1px">
-		<table>
-			<tr>
-				<th>Es mas Facil</th>
-				<td>Asi </td>
-			</tr>
-			<tr>
-				<td>Si</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<td>Si</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<td>Si</td>
-				<td>No</td>
-			</tr>
-		</table>
-	</table>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Blue Chat">
+    <meta name="keywords" content="Chat,CHAT FREE,Blue CHAT,CHAT MEXICO,CHATMX,BLUECHAT,bluechat">
+    <meta property="og:image" content="http://bluechat.wc.lt/Responsive/Images/phone.jpg">
+    <meta name="author" content="Heleodoro Merdrano">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+
+    <meta property="og:image" content="http://bluechat.wc.lt/Responsive/Images/phone.jpg" />
+    <meta property="og:image:width" content="565" />
+    <meta property="og:image:height" content="342" />
+    <meta property="og:image" content="http://bluechat.wc.lt/Responsive/Images/phone.jpg" />
+    <meta property="og:image" content="http://bluechat.wc.lt/Responsive/Images/phone.jpg" />
+    <meta property="og:description" content="Blue Chat, Disponible desde dispositivos moviles, Tablets y PC. Si se visualiza mal la pagina por favor dejarme una descripcion de tu dispositivo. :)"/>
+    
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="CSS/loader.css"> 
+    <link rel="stylesheet" type="text/css" href="CSS/general.css"> 
+    <link rel="stylesheet" type="text/css" href="CSS/btn.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bubble.css">    
+
+    <title id="titulo">Blue Chat</title>
+  </head>
+
+  <body onload="cargar()">
+    <div class="loader"></div>
+        <div id="site-header" class="site-header"> 
+           <button class="btn-Img" id="btn-Img" >IMAGEN</button>  
+              <form action="PHP/clearChat.php">
+                 <input type="submit" class="btn-Clr" id="btn-Clr" value="CLEAN" />
+              </form>         
+          
+        </div>
+        <div id="site-content" class="site-content">     
+          <h1 style='color:white'>Blue Chat</h1><br><h3>Disponible en Chrome & Firefox</h3>  
+        </div>
+        <div id="site-messages" class="site-messages">
+           <h3 id="tamanos">Mensajes</h3>
+            <div id="bubble" >                
+              <h3 id="msjs" color="white"></h3>
+            </div>
+            <div id="bubble" >                
+              <h3 id="msjs" color="white"></h3>
+            </div>
+        </div>
+        <div id="site-footer" class="site-footer">
+           <input type="text" class="textBox" id="textBox" maxlength="70"/>
+           <button id="btn-Send" class="btn-Send" >X</button>
+           <input type="hidden" name="numID" id="numID" value="333">
+        </div>
+     <script src="JS/jquery.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+      $(".loader").fadeOut("slow");
+    })
+    </script>
+
+
+    <script type="text/javascript" src="JS/mootools.js"></script>
+    <script type="text/javascript" src="JS/load.js"></script>  
+    <script type="text/javascript" src="JS/cookies.js"></script>  
+    <script type="text/javascript" src="JS/write.js"></script>
+    <script type="text/javascript" src="JS/events.js"></script>
+    <script type="text/javascript" src="JS/read.js"></script>      
+  </body>
 </html>

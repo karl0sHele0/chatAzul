@@ -1,0 +1,54 @@
+.btn-Img{
+    position: fixed;
+	width:30%;   
+	top: 0%;	
+	background-color:#20D3CA;
+	border:1px solid #fff;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:100%;
+}
+.btn-Img:hover{
+	background-color:#3D9A95;
+}
+.btn-Img:active {
+	position:fixed;
+}
+.btn-Img{
+	left: 0%;
+}
+
+.btn-Clr{
+    position: fixed;
+	width:30%;   
+	top: 0%;	
+	background-color:#20D3CA;
+	border:1px solid #fff;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:100%;
+	left: 70%;
+}
+.btn-Clr:hover{
+	background-color:#3D9A95;
+}
+.btn-Clr:active {
+	position:fixed;
+}
+.btn-Send{
+	position: fixed;
+	background-color:#20D3CA;
+	border:1px solid #fff;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:90%;
+	left: 90%;
+	width: 7%;
+}
+.btn-Send:hover{
+	position:fixed;
+	background-color:#3D9A95;
+}
+.btn-Send:active {
+	position:fixed;
+}
