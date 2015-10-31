@@ -7,5 +7,5 @@ Puedes Enviar un Mensaje!... ##:## 000";
 
 // Escribe el contenido al fichero
 file_put_contents($fichero, $contenido);
-header('Location: http://www.bluechat.wc.lt/Responsive');//Modificar al mover de Servidor o  IP
+header('Location: ../index.html');//Modificar al mover de Servidor o  IP
 ?>
