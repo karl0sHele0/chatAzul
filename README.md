@@ -12,3 +12,5 @@
  	Version Beta 1.1 
  	Estable y visible en el sitio 
  	http://www.bluechat.wc.lt/Responsive
+ 	
+ 	@Email: carl0shele08@gmail.com
