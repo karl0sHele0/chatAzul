@@ -5,7 +5,7 @@
 @Description:
  Version beta de un micro chat anonimo
  Maneja responsividad por medio de JS(por cambiar a CSS).
- Maneja cookies para recordar el usuario actual, para 
+ Maneja cookies para recordar el usuario cliente, para 
  indefinido numero de usuarios
 
  @Version 
